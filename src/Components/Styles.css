@@ -455,7 +455,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    height: 15vh;
+    height: 15%;
     top: 300px;
     left: 150px;
     background-color: #3f4394;
@@ -478,18 +478,15 @@ body {
     background: #fff;
     color: #2a2f3b;
     display: flex;
-    width: 100%;
+    width: 180px;
     justify-content: space-between;
     align-items: center;
     border: 2px #2a2f3b solid;
     border-radius: 0.5em;
-    padding: 1em 3em;
+    padding: 14px 16px;
+    /* padding-left: 14px; */
     cursor: pointer;
     transition: background 0.3s;
-}
-
-.select .search {
-    flex-grow: 2.5;
 }
 
 .select-clicked {
@@ -502,20 +499,27 @@ body {
     color: white;
 }
 
-.caret {
+.selected:hover.floating-all {
+    color: white;
+}
+
+.floating-all .caret {
     width: 0;
     height: 0;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-top: 6px solid #777;
     transition: 0.3s;
-    margin-right: auto;
+}
+
+.selected {
+    text-align: right;
 }
 
 
-.caret-rotate {
+/* .caret-rotate {
     transform: rotate(180deg);
-}
+} */
 
 .menu {
     list-style: none;
@@ -559,8 +563,9 @@ body {
 .search {
     color: white;
     background-color: #4ab9b1;
-    padding-right: 50px;
-    padding-left: 50px;
+    /* padding-right: 50px;
+    padding-left: 50px; */
+    text-align: center;
     font-weight: bold;
 }
 
@@ -579,6 +584,10 @@ body {
 
 .cont {
     background-color: aqua;
+}
+
+.drop-down:hover .selected {
+    color: white;
 }
 
 
@@ -635,6 +644,9 @@ body {
 
 .doc-info p {
     font-size: 15px;
+    text-align: right;
+    padding-right: 6px;
+    color: #333;
 }
 
 .doc-info .stars {
@@ -658,8 +670,6 @@ body {
     display: flex;
     font-size: 12px;
 }
-
-
 
 
 
@@ -692,6 +702,9 @@ body {
     font-size: 14px;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: right;
+    padding-right: 40px;
+    color: #333;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -709,9 +722,9 @@ body {
 .checkmark {
     position: absolute;
     top: 0;
-    right: 0;
-    height: 25px;
-    width: 25px;
+    right: 5px;
+    height: 20px;
+    width: 20px;
     background-color: #eee;
 }
 
@@ -734,8 +747,8 @@ body {
 }
 
 .checkbox-container .checkmark:after {
-    left: 9px;
-    top: 5px;
+    left: 7px;
+    top: 4px;
     width: 5px;
     height: 10px;
     border: solid black;
@@ -753,6 +766,12 @@ body {
 .place {
     margin-top: 26px;
     padding: 5px 10px;
+    padding-bottom: 0;
+}
+
+.small-grid .type {
+    text-align: right;
+    padding-right: 8px;
 }
 
 .small-grid .time {
@@ -762,24 +781,53 @@ body {
 
 .small-grid .time-label {
     font-weight: bold;
-    margin-left: auto;
+    text-align: right;
+    padding-right: 7px;
+    padding-bottom: 8px;
+    padding-top: 8px;
 }
 
 .small-grid .time h6 {
-    margin-left: auto;
+    text-align: right;
+    padding-right: 7px;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.small-grid .caret2 {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #777;
+    transition: 0.3s;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.small-grid .select2 {
+    background: #fff;
+    color: #2a2f3b;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background 0.3s;
 }
 
 .small-grid .time-blocks {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 4px;
     justify-content: space-around;
 }
 
 .small-grid .time-block {
     border: 1px solid #ccc;
-    font-size: 12px;
+    font-size: 10px;
     padding: 4px 6px;
     border-radius: 8px;
 }
@@ -871,9 +919,15 @@ body {
 }
 
 .doc-sum h3 {
-    margin-left: 57%;
+    text-align: right;
     margin-bottom: 20px;
     font-weight: bold;
+    font-size: 25px;
+}
+
+.doc-sum p {
+    text-align: right;
+    color: #777;
 }
 
 
@@ -890,24 +944,17 @@ body {
     color: black;
     font-weight: bold;
     padding-bottom: 20px;
-    margin-left: 70%;
+    text-align: right;
+    font-size: 25px;
 }
 
 .work-container {
-    color: black;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-column-gap: 5px;
-    grid-row-gap: 10px;
-
-}
-
-
-.work-container .srv-box {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-left: 120px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 200px;
+    color: black;
 }
 
 .work-container .srv-box h6 {
@@ -918,6 +965,7 @@ body {
 .work-container .srv-box p {
     font-size: 10px;
     color: #777;
+    text-align: right;
 }
 
 /* Doctor services styles */
@@ -932,10 +980,11 @@ body {
 
 .doc-services h3 {
     margin: 15px 0;
-    margin-left: 70%;
-    margin-bottom: 20px;
+    text-align: right;
+    margin-bottom: 22px;
     display: block;
     font-weight: bold;
+    font-size: 25px;
 }
 
 
@@ -968,9 +1017,10 @@ body {
 }
 
 .certs h3 {
+    font-size: 24px;
     font-weight: bold;
-    margin-left: 40%;
-    margin-bottom: 20px;
+    text-align: right;
+    margin-bottom: 26px;
 }
 
 .certs .img {
@@ -1030,8 +1080,9 @@ body {
 
 .instructions h3 {
     font-weight: bold;
-    margin-left: 66%;
+    text-align: right;
     margin-bottom: 25px;
+    font-size: 24px;
 }
 
 .instructions .instruct {

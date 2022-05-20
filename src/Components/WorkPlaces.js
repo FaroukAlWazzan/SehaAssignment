@@ -3,7 +3,7 @@ import './Styles.css';
 const WorkPlaces = () => {
     return (
         <div className="work-places">
-            <h3>أماكن العمل</h3>
+            <h3><i class="fa-solid fa-sm fa-briefcase-medical"></i> أماكن العمل </h3>
             <div class="work-container">
                 <div class="srv-box">
                     <h6>مركز أسنان كلينيك للأسنان</h6>

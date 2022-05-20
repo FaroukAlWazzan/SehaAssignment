@@ -5,7 +5,7 @@ const FloatingPanel = () => {
         <div className="floating-all">
             <div className="drop-down">
                 <div className='select'>
-                    <span className='selected bolded'>تخصص الاسنان</span>
+                    <span className='selected bolded'> <i class="fa-solid fa-tooth"></i>  تخصص الاسنان    </span>
                     <div className='caret'></div>
                 </div>
                 <ul className='menu'>
@@ -17,7 +17,7 @@ const FloatingPanel = () => {
             </div>
             <div className="drop-down">
                 <div className='select'>
-                    <span className='selected faded'>اختر المحافظة</span>
+                    <span className='selected faded'><i class="fa-solid fa-location-dot"></i>  اختر المحافظة</span>
                     <div className='caret'></div>
                 </div>
                 <ul className='menu'>
@@ -29,7 +29,7 @@ const FloatingPanel = () => {
             </div>
             <div className="drop-down">
                 <div className='select'>
-                    <span className='selected faded'>اختر المنطقة</span>
+                    <span className='selected faded'><i class="fa-solid fa-location-dot"></i> اختر المنطقة </span>
                     <div className='caret'></div>
                 </div>
                 <ul className='menu'>
@@ -41,7 +41,7 @@ const FloatingPanel = () => {
             </div>
             <div className="drop-down">
                 <div className='select'>
-                    <span className='selected faded'>اختر التأمين</span>
+                    <span className='selected faded'><i class="fa-solid fa-umbrella"></i> اختر التأمين</span>
                     <div className='caret'></div>
                 </div>
                 <ul className='menu'>
@@ -53,7 +53,7 @@ const FloatingPanel = () => {
             </div>
             <div className="drop-down">
                 <div className='select search'>
-                    <span className='selected search'>أبحث</span>
+                    <span className='selected search'>  <i class="fa-solid fa-lg fa-magnifying-glass"></i> أبحث</span>
                 </div>
             </div>
 

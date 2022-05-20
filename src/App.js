@@ -16,6 +16,8 @@ import DoctorServices from './Components/DoctorServices';
 import Certificates from './Components/Certificates';
 import Instructions from './Components/Instructions';
 import Footer from './Components/Footer';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { solid, regular, brands, faCoffe } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 
 function App() {
    return (

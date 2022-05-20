@@ -3,7 +3,7 @@ import './Styles.css';
 const Certificates = () => {
     return (
         <div className="certs">
-            <h3>شهادات وصور خاصة بالطبيب</h3>
+            <h3><i class="fa-solid fa-sm fa-medal"></i> شهادات وصور خاصة بالطبيب</h3>
             <div className="imgs">
                 <img className='img img1' alt="" />
                 <img className='img img2' alt="" />
