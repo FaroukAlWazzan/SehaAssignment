@@ -26,18 +26,23 @@ const SmallGrid = () => {
                     <div className='caret2'></div>
                 </div>
                 <div className='time-blocks'>
-                    <div className='time-block'>01:00pm</div>
-                    <div className='time-block'>03:00pm</div>
-                    <div className='time-block washed-out'>05:00pm</div>
-                    <div className='time-block'>07:00pm</div>
-                    <div className='time-block'>09:00pm</div>
-                    <div className='time-block washed-out'>02:00am</div>
-                    <div className='time-block'>04:00am</div>
-                    <div className='time-block'>06:00am</div>
-                    <div className='time-block washed-out'>08:00am</div>
-                    <div className='time-block washed-out'>10:00am</div>
-                    <div className='time-block'>11:00am</div>
-                    <div className='time-block'>12:00am</div>
+                    <div className="t1">
+                        <div className='time-block'>01:00pm</div>
+                        <div className='time-block'>03:00pm</div>
+                        <div className='time-block washed-out'>05:00pm</div>
+                        <div className='time-block'>07:00pm</div>
+                        <div className='time-block'>09:00pm</div>
+                        <div className='time-block washed-out'>02:00am</div>
+                    </div>
+                    {/* <br /> */}
+                    <div className="t2">
+                        <div className='time-block'>04:00am</div>
+                        <div className='time-block'>06:00am</div>
+                        <div className='time-block washed-out'>08:00am</div>
+                        <div className='time-block washed-out'>10:00am</div>
+                        <div className='time-block'>11:00am</div>
+                        <div className='time-block'>12:00am</div>
+                    </div>
                 </div>
             </div>
             <button>حجز الطبيب</button>
