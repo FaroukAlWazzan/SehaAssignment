@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SehaAssignment/static/css/main.3e80f74a.css",
+    "main.js": "/SehaAssignment/static/js/main.1db9bf5f.js",
+    "static/media/doc-portfolio.jpeg": "/SehaAssignment/static/media/doc-portfolio.1e2052a09e492381538c.jpeg",
+    "static/media/doc4.png": "/SehaAssignment/static/media/doc4.c0cc5e816553a396fc71.png",
+    "static/media/1111.jpeg": "/SehaAssignment/static/media/1111.352262b38c9cc6b2580a.jpeg",
+    "static/media/apple1.png": "/SehaAssignment/static/media/apple1.4bc811d887010296ae6b.png",
+    "static/media/2.jpeg": "/SehaAssignment/static/media/2.1bca032ee1d25bf081cc.jpeg",
+    "static/media/google1.jpeg": "/SehaAssignment/static/media/google1.5bfe47d9c56dccc45e0f.jpeg",
+    "static/media/3.jpeg": "/SehaAssignment/static/media/3.73f1afb393a67ea2758b.jpeg",
+    "index.html": "/SehaAssignment/index.html",
+    "main.3e80f74a.css.map": "/SehaAssignment/static/css/main.3e80f74a.css.map",
+    "main.1db9bf5f.js.map": "/SehaAssignment/static/js/main.1db9bf5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e80f74a.css",
+    "static/js/main.1db9bf5f.js"
+  ]
+}
