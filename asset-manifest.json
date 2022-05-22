@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SehaAssignment/static/css/main.3e80f74a.css",
-    "main.js": "/SehaAssignment/static/js/main.1db9bf5f.js",
+    "main.css": "/SehaAssignment/static/css/main.0a75ec60.css",
+    "main.js": "/SehaAssignment/static/js/main.228449fd.js",
     "static/media/doc-portfolio.jpeg": "/SehaAssignment/static/media/doc-portfolio.1e2052a09e492381538c.jpeg",
     "static/media/doc4.png": "/SehaAssignment/static/media/doc4.c0cc5e816553a396fc71.png",
     "static/media/1111.jpeg": "/SehaAssignment/static/media/1111.352262b38c9cc6b2580a.jpeg",
@@ -10,11 +10,11 @@
     "static/media/google1.jpeg": "/SehaAssignment/static/media/google1.5bfe47d9c56dccc45e0f.jpeg",
     "static/media/3.jpeg": "/SehaAssignment/static/media/3.73f1afb393a67ea2758b.jpeg",
     "index.html": "/SehaAssignment/index.html",
-    "main.3e80f74a.css.map": "/SehaAssignment/static/css/main.3e80f74a.css.map",
-    "main.1db9bf5f.js.map": "/SehaAssignment/static/js/main.1db9bf5f.js.map"
+    "main.0a75ec60.css.map": "/SehaAssignment/static/css/main.0a75ec60.css.map",
+    "main.228449fd.js.map": "/SehaAssignment/static/js/main.228449fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e80f74a.css",
-    "static/js/main.1db9bf5f.js"
+    "static/css/main.0a75ec60.css",
+    "static/js/main.228449fd.js"
   ]
 }
